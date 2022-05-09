@@ -1,0 +1,3 @@
+api_key: ""
+vpn_disconnect_message: "You Are Connected To A VPN!\n\nDisconnect From The VPN And Rejoin"
+proxy_disconnect_message: "You Are Connected To A Proxy!\n\nDisconnect From The Proxy And Rejoin"

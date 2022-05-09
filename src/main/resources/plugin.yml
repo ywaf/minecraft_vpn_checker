@@ -1,0 +1,6 @@
+name: IPChecker
+version: '${project.version}'
+main: dev.leho.ipchecker.Main
+prefix: [ IPCHECKER ]
+authors: [ Leho ]
+website: leho.dev
