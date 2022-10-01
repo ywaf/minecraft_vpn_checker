@@ -23,7 +23,7 @@ public final class Main extends JavaPlugin implements Listener {
     public void onEnable() {
         // Plugin startup logic
         Bukkit.getServer().getPluginManager().registerEvents(this, this);
-        System.out.println("IPChecker is enabled!");
+        System.out.println("IPCHECKER] ENABLED! Loading Plugin...");
         if (!getDataFolder().exists()) {
             this.saveDefaultConfig();
         }
@@ -71,6 +71,6 @@ public final class Main extends JavaPlugin implements Listener {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
-        System.out.println("IPChecker is disabled!");
+        System.out.println("IPCHECKER] IPCHECKER DISABLED!");
     }
 }
